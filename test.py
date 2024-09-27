@@ -1,8 +1,11 @@
 # Function to calculate the average of a list
 def calculate_average(numbers):
+    print(max(numbers))
+    print(min(numbers))
     if len(numbers) == 0:
         return 0
     return sum(numbers) / len(numbers)
+
 
 # Example usage
 if __name__ == "__main__":
